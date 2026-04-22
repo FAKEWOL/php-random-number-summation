@@ -1,9 +1,9 @@
 $toplam = 0;
-    do{
-        $sayilar = rand(0,20);
-        $toplam = $toplam + $sayilar;
-    }
-    while($sayilar != 5);
-    {
-        echo "$toplam";
-    }
+$bulundu = false;
+do {
+    $sayilar = rand(0, 20);
+    $toplam += $sayilar;
+} while ($sayilar == 5 && !$bulundu);
+if (!$bulundu) {
+    echo "$toplam";
+}
