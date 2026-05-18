@@ -1,0 +1,21 @@
+# PHP
+*.php.swp
+*.log
+vendor/
+composer.phar
+composer.lock
+.phpunit.result.cache
+
+# OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.buildpath
